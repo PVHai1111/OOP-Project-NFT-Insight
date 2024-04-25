@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="layout" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomepageController">
+    <center>
+      <VBox prefHeight="482.0" prefWidth="830.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="25.0" prefWidth="471.0">
+               <children>
+                  <Pane prefHeight="25.0" prefWidth="324.0" />
+                  <ImageView fx:id="homeLogoView" fitHeight="42.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" />
+                  <HBox alignment="CENTER" prefHeight="12.0" prefWidth="150.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="37.0" prefWidth="125.0" text="Homepage" textFill="#000000c7">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+               <children>
+                  <Text lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Non-fungible tokens (NFTs) are a type of digital asset that represents real-world items such as art, music, in-game items, and videos. NFTs are bought and sold online, typically with cryptocurrency. NFTs are usually encoded with the same underlying software as many cryptocurrencies." textAlignment="CENTER" wrappingWidth="591.13671875" />
+                  <ImageView fx:id="iconView" fitHeight="90.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <VBox prefHeight="176.0" prefWidth="830.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="19.0" prefWidth="90.0" text="Articles">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="148.0" prefWidth="814.0" spacing="10.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="118.0" prefWidth="95.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <ImageView fx:id="decryptView" fitHeight="94.0" fitWidth="181.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label text="Decrypt">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="118.0" prefWidth="95.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <ImageView fx:id="coinDeskView" fitHeight="94.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label text="Coin Desk">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="118.0" prefWidth="95.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <ImageView fx:id="nftInsiderView" fitHeight="94.0" fitWidth="182.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label text="NFT Insider">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="118.0" prefWidth="95.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <ImageView fx:id="twitterView" fitHeight="94.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label text="Twitter">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox alignment="BOTTOM_LEFT" prefHeight="134.0" prefWidth="830.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="19.0" prefWidth="90.0" text="Markets">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="101.0" prefWidth="830.0" spacing="10.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="118.0" prefWidth="95.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <ImageView fx:id="openSeaView" fitHeight="94.0" fitWidth="183.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label text="Open Sea">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="118.0" prefWidth="95.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <ImageView fx:id="raribleView" fitHeight="94.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label text="Rarible">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="118.0" prefWidth="95.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <ImageView fx:id="niftyGatewayView" fitHeight="94.0" fitWidth="189.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label text="Nifty Gateway">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="118.0" prefWidth="95.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <ImageView fx:id="binanceView" fitHeight="94.0" fitWidth="166.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label text="Binance">
+                                 <font>
+                                    <Font name="System Bold" size="11.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

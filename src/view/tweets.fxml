@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Anchorlayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TweetController">
+   <children>
+      <Text fx:id="heading" layoutX="396.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TWEETS" textAlignment="CENTER" wrappingWidth="129.923828125">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tableView" layoutX="17.0" layoutY="110.0" prefHeight="400.0" prefWidth="713.0">
+        <columns>
+          <TableColumn fx:id="dateColumn" prefWidth="110.0" text="Date" />
+          <TableColumn fx:id="authorColumn" prefWidth="161.0" text="Author" />
+            <TableColumn fx:id="hashtagColumn" minWidth="0.0" prefWidth="155.0" text="Hashtag" />
+            <TableColumn fx:id="replyColumn" prefWidth="71.0" text="Replies" />
+            <TableColumn fx:id="repostColumn" minWidth="8.0" prefWidth="73.0" text="Reposts" />
+            <TableColumn fx:id="likeColumn" minWidth="8.0" prefWidth="72.0" text="Likes" />
+            <TableColumn fx:id="viewColumn" minWidth="8.0" prefWidth="70.0" text="Views" />
+        </columns>
+      </TableView>
+      <TextField fx:id="searchText" layoutX="110.0" layoutY="69.0" prefHeight="25.0" prefWidth="614.0" promptText="Keyword : hashtag, title, author, date, .." />
+      <VBox alignment="TOP_CENTER" layoutX="773.0" layoutY="110.0" maxHeight="600.0" prefHeight="385.0" prefWidth="149.0">
+         <children>
+            <ImageView fitHeight="138.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/NFT-Tweet-Tiles.jpg" />
+               </image>
+            </ImageView>
+            <Text fx:id="text1" strokeType="OUTSIDE" strokeWidth="0.0" text="Content of tweet" textAlignment="CENTER" wrappingWidth="170.13671875">
+               <VBox.margin>
+                  <Insets bottom="20.0" top="10.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <Label layoutX="56.0" layoutY="69.0" prefHeight="25.0" prefWidth="54.0" text="Search  ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="750.0" layoutY="76.0" prefHeight="434.0" prefWidth="5.0" style="-fx-background-color: #ccc;" />
+   </children>
+</AnchorPane>
