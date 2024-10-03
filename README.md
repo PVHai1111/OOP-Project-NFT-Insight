@@ -27,108 +27,57 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Screen Shot](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/dashboard.jpg?raw=true)](https://github.com/Aylesworth/maternal-child-health/)
+[![Product Screen Shot](https://github.com/PVHai1111/OOP-Project-NFT-Insight/blob/main/screenshots/homepage.png?raw=true)](https://github.com/PVHai1111/OOP-Project-NFT-Insight/)
 
-A desktop application that helps medical center store and manage maternal and child health information and medical records, as well as manage vaccination services.
+A desktop application that give the user the data of NFT accross the online platforms
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ### Built With
 
-* [Spring Boot](https://spring.io/projects/spring-boot)
-* [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
-* [Spring Security](https://spring.io/projects/spring-security)
+* [Java](https://www.java.com/en/)
 * [JavaFX](https://openjfx.io/)
-* [MySQL](https://www.mysql.com/)
+* [Selenium](https://www.selenium.dev/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ### Features
 
-* Login, sign up, reset password
-* Admin:
-	* CRUD operations with user and child profiles, medical and vaccination records, healthcare events
-	* Approval for profile registration and update
-	* View statistics
-* User:
-	* View and update relevant profiles
-	* View medical and vaccination records
-	* Register for vaccination
-	* Receive notifications about vaccination schedule
-	* Register for healthcare events
+* Update the data of NFTs
+* View tweets
+* View blogs and news
+* View collections
+* View a certain object related data 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Screenshots
 
-* Login:
+* Tweets:
 
-![Login](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/login.jpg?raw=true)
+![Tweets](https://github.com/PVHai1111/OOP-Project-NFT-Insight/blob/main/screenshots/tweets.png?raw=true)
 
-* Sign up:
+* Blogs & News:
 
-![Sign up](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/sign-up.jpg?raw=true)
+![Blogs & News](https://github.com/PVHai1111/OOP-Project-NFT-Insight/blob/main/screenshots/blogs.png?raw=true)
 
-* Dashboard:
+* Collections:
 
-![Dashboard](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/dashboard.jpg?raw=true)
+![Collections](https://github.com/PVHai1111/OOP-Project-NFT-Insight/blob/main/screenshots/collections.png?raw=true)
 
-* Notifications:
+* Related Data:
 
-![Notifications](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/notifications.jpg?raw=true)
-
-* Manage users:
-
-![Manage users](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/manage-users.jpg?raw=true)
-
-* Manage child profiles:
-
-![Manage child profiles](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/manage-children.jpg?raw=true)
-
-* User profile:
-
-![User profile](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/user-profile.jpg?raw=true)
-
-* Child profile:
-
-![Child profile](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/child-profile.jpg?raw=true)
-
-* Body metrics records:
-
-![Body metrics records](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/body-metrics.jpg?raw=true)
-
-* Vaccination records:
-
-![Vaccination records](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/injection-records.jpg?raw=true)
-
-* Medical records:
-
-![Medical records](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/examination-records.jpg?raw=true)
-
-* Vaccination schedule:
-
-![Vaccination schedule](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/vaccination-schedule.jpg?raw=true)
-
-* Manage events:
-
-![Manage events](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/manage-events.jpg?raw=true)
-
-* Child vaccination schedule:
-
-![Child vaccination schedule](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/child-vaccination-schedule.jpg?raw=true)
-
-* Events:
-
-![Events](https://github.com/Aylesworth/maternal-child-health/blob/master/screenshots/events.jpg?raw=true)
+![Related Data](https://github.com/PVHai1111/OOP-Project-NFT-Insight/blob/main/screenshots/compare.png?raw=true)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
 
-Nguyễn Đức Anh - nguyenducanh@gmail.com
+Phạm Viêt Hải - pvhmain2k3@gmail.com
 
-Project Link: [https://github.com/Aylesworth/maternal-child-health](https://github.com/Aylesworth/maternal-child-health)
+Project Link: [https://github.com/PVHai1111/OOP-Project-NFT-Insight](https://github.com/PVHai1111/OOP-Project-NFT-Insight)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
