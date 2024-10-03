@@ -152,7 +152,7 @@ public class RelationController implements Initializable {
 			tableBlogs.setItems(filteredData2);
 			if (newSelection != null) {
 				String selectedName = newSelection.getCollection();
-				filteredData1.setPredicate(tweet -> tweet.getTag().contains(selectedName));
+				filteredData1.setPredicate(tweet -> checkContainsTweet(tweet, selectedName));
 				filteredData2.setPredicate(blog -> checkContains(blog, selectedName));
 			}
 		});
@@ -164,6 +164,13 @@ public class RelationController implements Initializable {
 		String[] words = s.split(" ");
 		for (String a : words)
 			return blog.getTitle().toLowerCase().contains(a.toLowerCase());
+		return false;
+	}
+	
+	boolean checkContainsTweet(Tweet tweet, String s) {
+		String[] words = s.split(" ");
+		for (String a : words)
+			return tweet.getText().toLowerCase().contains(a.toLowerCase());
 		return false;
 	}
 }
